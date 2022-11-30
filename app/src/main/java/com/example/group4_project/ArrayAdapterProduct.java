@@ -22,4 +22,21 @@ public class ArrayAdapterProduct extends ArrayAdapter {
         this.productPrice = productPrice;
         this.imageid = imageid;
     }
+
+    @Override
+public View getView(int position, View convertView, ViewGroup parent) {
+        View row=convertView;
+        LayoutInflater inflater = context.getLayoutInflater();
+        if(convertView==null)
+            row = inflater.inflate(R.layout.row_item, null, true);
+        TextView textViewPN = (TextView) row.findViewById(R.id.textViewProductName);
+        TextView textViewPP = (TextView) row.findViewById(R.id.textViewProductPrice);
+        ImageView image = (ImageView) row.findViewById(R.id.imageViewProduct);
+        textViewPN.setText(productName[position]);
+        textViewPP.setText(productPrice[position]);
+        image.setImageResource(imageid[position]);
+        return row;
+    }
 }
+
+
