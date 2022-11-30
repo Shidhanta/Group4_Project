@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Group4_Project">
         <activity
-            android:name=".contactDetails"
+            android:name=".ContactDetails"
             android:exported="false" />
         <activity
-            android:name=".productDetails"
+            android:name=".ProductDetails"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
