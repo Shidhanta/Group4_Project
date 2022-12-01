@@ -16,7 +16,7 @@ public class ContactDetails extends AppCompatActivity {
     private ListView listView;
     private String details[] = {"Name :- ", "Contact Number :- ", "Email id :- ", "Address :- "};
     private String info[] = {"Sidhanta", "7777777789", "ssmc20149@nitw.ac.in", "XXX House, India - 99"};
-    private Integer imageid[] = {R.drawable.god_of_war, R.drawable.south_park, R.drawable.god_of_war, R.drawable.south_park};
+    private Integer imageid[] = {R.drawable.name, R.drawable.contacts, R.drawable.email, R.drawable.address};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

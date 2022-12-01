@@ -17,7 +17,7 @@ public class ProductDetails extends ListActivity {
     private ListView listView;
     private String productNames[] = {"Product: X", "Product: Y", "Product: Z", "Product: K"};
     private String productPrice[] = {"Price: 100", "Price: 200", "Price: 300", "Price: 400"};
-    private Integer imageid[] = {R.drawable.god_of_war, R.drawable.south_park, R.drawable.god_of_war, R.drawable.south_park};
+    private Integer imageid[] = {R.drawable.apex_legends, R.drawable.south_park, R.drawable.god_of_war, R.drawable.terraria};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
