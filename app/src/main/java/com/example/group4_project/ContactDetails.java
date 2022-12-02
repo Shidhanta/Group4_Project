@@ -14,14 +14,15 @@ import android.widget.Toast;
 public class ContactDetails extends AppCompatActivity {
 
     private ListView listView;
-    private String details[] = {"Name :- ", "Contact Number :- ", "Email id :- ", "Address :- "};
-    private String info[] = {"Sidhanta", "7777777789", "ssmc20149@nitw.ac.in", "XXX House, India - 99"};
-    private Integer imageid[] = {R.drawable.name, R.drawable.contacts, R.drawable.email, R.drawable.address};
+    private String details[] = {"Name  ", "Contact Number  ", "Email id  ", "Address  "};
+    private String info[] = {"Dr. M.Sandhya", "+91 98749*****", "drmsandhya@nitw.ac.in", "XXX House, India - 99"};
+    private Integer imageid[] = {R.drawable.ui, R.drawable.pi, R.drawable.ei, R.drawable.li};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contact_details);
+        this.setTitle("Contact Description");
 
         // Setting header
         TextView textView = new TextView(this);

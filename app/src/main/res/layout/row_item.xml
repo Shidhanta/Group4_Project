@@ -4,39 +4,52 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ImageView
+    <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/imageViewProduct"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_row="0"
-        android:layout_rowSpan="2"
-        android:layout_column="0"
-        android:layout_marginTop="35dp"
-        android:scaleType="fitXY" />
+        android:layout_width="110dp"
+        android:layout_height="99dp"
+        android:layout_margin="15dp"
+        android:scaleType="fitXY"
+        app:shapeAppearanceOverlay="@style/roundimageview"
+
+        />
+<!--    <ImageView-->
+<!--        android:id="@+id/imageViewProduct"-->
+<!--        android:layout_width="110dp"-->
+<!--        android:layout_height="99dp"-->
+<!--        android:layout_row="0"-->
+<!--        android:layout_rowSpan="2"-->
+<!--        android:layout_column="0"-->
+<!--        android:layout_margin="15dp"-->
+<!--        android:scaleType="fitXY"-->
+<!--        android:backgroundTint="#97000000"-->
+<!--        />-->
 
     <TextView
         android:id="@+id/textViewProductName"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_row="0"
         android:layout_column="1"
         android:layout_columnWeight="1"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="30dp"
-        android:textColor="#1E90FF"
-        android:textSize="25dp" />
+        android:layout_marginTop="25dp"
+        android:layout_margin="10dp"
+        android:textColor="#DEEBF8"
+        android:background="#97000000"
+        android:textSize="15dp" />
 
     <TextView
         android:id="@+id/textViewProductPrice"
-        android:layout_width="match_parent"
-        android:layout_height="30dp"
-        android:layout_row="1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
         android:layout_column="1"
         android:layout_columnWeight="1"
-        android:layout_marginLeft="10dp"
-        android:layout_marginBottom="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_margin="10dp"
         android:ellipsize="none"
         android:scrollHorizontally="false"
-        android:textColor="#000000"
-        android:textSize="20dp" />
+        android:textColor="#BEEBFF"
+        android:background="#97000000"
+        android:textSize="15dp" />
 </GridLayout>

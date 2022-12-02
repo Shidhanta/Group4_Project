@@ -2,9 +2,13 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 <item
     android:id = "@+id/products"
-    android:title = "Show Product Details" />
+    android:title = "Show Product Details"
+    android:textColor="@color/white"
+    android:background="@color/black"/>
     <item
         android:id = "@+id/contacts"
-        android:title = "Show Contact Details" />
+        android:title = "Show Contact Details"
+        android:textColor="@color/white"
+        android:background="@color/black"/>
 
 </menu>
