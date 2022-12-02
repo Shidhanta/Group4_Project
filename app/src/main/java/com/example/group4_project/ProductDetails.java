@@ -17,7 +17,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class ProductDetails extends AppCompatActivity {
 
     private ListView listView;
-    private String productNames[] = {"God Of War", "Apex: Ledgend", "Call Of Duty", "Hallow Knight"};
+    private String productNames[] = {"God Of War", "Apex Legends", "Call Of Duty", "Hollow Knight"};
     private String productPrice[] = {"Price: 100$", "Price: 200$", "Price: 300$", "Price: 400$"};
     private Integer imageid[] = {R.drawable.gow, R.drawable.apex, R.drawable.cod, R.drawable.hk};
 
